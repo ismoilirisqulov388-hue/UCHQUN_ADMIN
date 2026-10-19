@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dars tafsilotlari - UCHQUN</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Chap Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-top">
+          <div class="logo-box">
+            <div class="logo-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="logo-text">
+              <span class="brand-name">UCHQUN</span>
+              <span class="brand-sub">YOSH BILIMDONLAR UYI</span>
+            </div>
+          </div>
+
+          <nav class="sidebar-menu">
+            <a href="#" class="menu-item active">
+              <i class="fa-solid fa-book-open"></i>
+              <span>Mening darslarim</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-list-check"></i>
+              <span>Topshiriqlar</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-award"></i>
+              <span>Reyting</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-comments"></i>
+              <span>Muloqot markazi</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-user"></i>
+              <span>Mening profilim</span>
+            </a>
+          </nav>
+        </div>
+
+        <div class="sidebar-profile">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Avatar" class="profile-avatar" />
+          <div class="profile-info">
+            <h4>Azizbek Qodirov</h4>
+            <p>Guruh: F-2401</p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Asosiy qism -->
+      <main class="main-content">
+        <!-- Header -->
+        <header class="main-header">
+          <div class="header-dropdown">
+            <span class="label">Dastur:</span>
+            <div class="dropdown-box">
+              <span>Frontend Dasturlash</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="header-notification">
+            <button class="notif-btn">
+              <i class="fa-regular fa-bell"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Kontent mazmuni -->
+        <div class="content-body">
+          <!-- Breadcrumb / Sarlavha yo'li -->
+          <div class="breadcrumb">
+            <span>HTML moduli</span>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span class="current">3-Mavzu: Metateglar va Semantika</span>
+          </div>
+
+          <!-- Prezentatsiya bloki -->
+          <div class="presentation-card">
+            <div class="pres-header">
+              <div class="pres-title-box">
+                <i class="fa-solid fa-display"></i>
+                <h3>Dars Prezentatsiyasi: Metateglar va SEO asoslari</h3>
+              </div>
+              <div class="pres-actions">
+                <button class="icon-btn" title="Yuklab olish">Yuklab olish <i class="fa-solid fa-download"></i></button>
+                <button class="icon-btn" id="fullscreenBtn" title="Kengaytirish"><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+
+            <!-- Slayd oynasi -->
+            <div class="slide-container">
+              <div class="slide-top-info">
+                <span>UCHQUN IT ACADEMY</span>
+                <span class="slide-count">Slayd 3 / 18</span>
+              </div>
+              <div class="slide-content">
+                <h2>&lt;meta&gt; tegi nima uchun kerak?</h2>
+                <p>Metateglar veb-sahifa haqidagi texnik ma'lumotlarni qidiruv tizimlari va brauzer uchun taqdim etadi. Ular foydalanuvchiga to'g'ridan-to'g'ri ko'rinmaydi.</p>
+              </div>
+              <div class="slide-footer">
+                <button class="slide-nav-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="slide-nav-btn"><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pastki qism: Mini-testlar va Amaliy topshiriq -->
+          <div class="bottom-grid">
+            <!-- Mini-testlar qismi -->
+            <div class="tests-section">
+              <div class="section-title-row">
+                <h3>Mavzu bo'yicha mini-testlar</h3>
+                <span class="badge-savol">3 TA SAVOL</span>
+              </div>
+
+              <div class="tests-grid">
+                <!-- Savol 1 (Bajarilgan) -->
+                <div class="test-card completed">
+                  <div class="test-card-top">
+                    <h4>Savol #1</h4>
+                    <span class="status-mini green">TO'G'RI</span>
+                  </div>
+                  <p class="question-text">Charsetni aniqlang?</p>
+                  <div class="answer-box">Javob: &lt;meta charset="UTF-8"&gt;</div>
+                  <button class="test-btn outline">Qayta yechish</button>
+                </div>
+
+                <!-- Savol 2 (Jarayonda) -->
+                <div class="test-card">
+                  <div class="test-card-top">
+                    <h4>Savol #2</h4>
+                  </div>
+                  <p class="question-text">Viewport nima?</p>
+                  <div class="answer-box">Javob: Ekran o'lchami</div>
+                  <button class="test-btn solid">Yechishni boshlash</button>
+                </div>
+
+                <!-- Savol 3 (Boshlanmagan) -->
+                <div class="test-card">
+                  <div class="test-card-top">
+                    <h4>Savol #3</h4>
+                  </div>
+                  <p class="question-text">Description tegi qayerda yoziladi?</p>
+                  <div class="answer-box">Javob: &lt;head&gt; ichida</div>
+                  <button class="test-btn solid">Yechishni boshlash</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Amaliy topshiriq -->
+            <div class="assignment-section">
+              <h3>Amaliy Topshiriq</h3>
+              <div class="assignment-card">
+                <div class="assignment-badges">
+                  <span class="badge-ball">100 BALL</span>
+                  <span class="badge-time">Muddati: 1 kun qoldi</span>
+                </div>
+                <h4>Loyiha uchun asosiy metasturlarni sozlash:</h4>
+                <p>
+                  index.html faylini yarating va unga SEO uchun muhim bo'lgan description, keywords hamda Open Graph metateglarini qo'shing.
+                </p>
+                <button class="upload-task-btn" id="uploadTaskBtn">Vazifani topshirish</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

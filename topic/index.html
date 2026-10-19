@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML moduli mavzulari - UCHQUN</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- CSS fayl bir papkada bo'lsa -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Боковое меню (Sidebar) -->
+      <aside class="sidebar">
+        <div class="sidebar-top">
+          <div class="logo-box">
+            <div class="logo-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="logo-text">
+              <span class="brand-name">UCHQUN</span>
+              <span class="brand-sub">YOSH BILIMDONLAR UYI</span>
+            </div>
+          </div>
+
+          <nav class="sidebar-menu">
+            <a href="#" class="menu-item active">
+              <i class="fa-solid fa-book-open"></i>
+              <span>Mening darslarim</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-list-check"></i>
+              <span>Topshiriqlar</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-award"></i>
+              <span>Reyting</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-comments"></i>
+              <span>Muloqot markazi</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-user"></i>
+              <span>Mening profilim</span>
+            </a>
+          </nav>
+        </div>
+
+        <div class="sidebar-profile">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Avatar" class="profile-avatar" />
+          <div class="profile-info">
+            <h4>Azizbek Qodirov</h4>
+            <p>Guruh: F-2401</p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Основная часть -->
+      <main class="main-content">
+        <!-- Шапка (Header) -->
+        <header class="main-header">
+          <div class="header-dropdown">
+            <span class="label">Dastur:</span>
+            <div class="dropdown-box">
+              <span>Frontend Dasturlash</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="header-notification">
+            <button class="notif-btn">
+              <i class="fa-regular fa-bell"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Тело страницы -->
+        <div class="content-body">
+          <div class="topics-header-section">
+            <div class="title-box">
+              <h2>HTML moduli mavzulari</h2>
+              <p>Boshlang'ich veb-texnologiya asoslarini mustahkamlang.</p>
+            </div>
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Mavzu bo'yicha qidirish..." />
+            </div>
+          </div>
+
+          <!-- Список тем -->
+          <div class="topics-list">
+            <!-- 1. Tugallangan -->
+            <div class="topic-card">
+              <div class="topic-left">
+                <span class="topic-number green-bg">1</span>
+                <div class="topic-info">
+                  <h4>HTMLga kirish</h4>
+                  <p>4 dars • Davomiyligi 1.5 soat</p>
+                </div>
+              </div>
+              <div class="topic-middle">
+                <div class="progress-info">
+                  <span>O'zlashtirish</span>
+                  <span class="percent">100%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill green" style="width: 100%;"></div>
+                </div>
+              </div>
+              <div class="topic-right">
+                <span class="status-badge completed">TUGALLANGAN</span>
+                <button class="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <!-- 2. Tugallangan -->
+            <div class="topic-card">
+              <div class="topic-left">
+                <span class="topic-number green-bg">2</span>
+                <div class="topic-info">
+                  <h4>Teglar va Atributlar</h4>
+                  <p>6 dars • Davomiyligi 1.5 soat</p>
+                </div>
+              </div>
+              <div class="topic-middle">
+                <div class="progress-info">
+                  <span>O'zlashtirish</span>
+                  <span class="percent">100%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill green" style="width: 100%;"></div>
+                </div>
+              </div>
+              <div class="topic-right">
+                <span class="status-badge completed">TUGALLANGAN</span>
+                <button class="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <!-- 3. O'rganilmoqda -->
+            <div class="topic-card">
+              <div class="topic-left">
+                <span class="topic-number orange-bg">3</span>
+                <div class="topic-info">
+                  <h4>Metateglar va Semantika</h4>
+                  <p>5 dars • Davomiyligi 1.5 soat</p>
+                </div>
+              </div>
+              <div class="topic-middle">
+                <div class="progress-info">
+                  <span>O'zlashtirish</span>
+                  <span class="percent">76%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill orange" style="width: 76%;"></div>
+                </div>
+              </div>
+              <div class="topic-right">
+                <span class="status-badge in-progress">O'RGANILMOQDA</span>
+                <button class="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <!-- 4. Boshlanmagan -->
+            <div class="topic-card">
+              <div class="topic-left">
+                <span class="topic-number light-orange-bg">4</span>
+                <div class="topic-info">
+                  <h4>Formatlar va Inputlar</h4>
+                  <p>6 dars • Davomiyligi 1.5 soat</p>
+                </div>
+              </div>
+              <div class="topic-middle">
+                <div class="progress-info">
+                  <span>O'zlashtirish</span>
+                  <span class="percent">20%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill light-orange" style="width: 20%;"></div>
+                </div>
+              </div>
+              <div class="topic-right">
+                <span class="status-badge not-started">BOSHLANMAGAN</span>
+                <button class="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <!-- 5. Yopiq -->
+            <div class="topic-card">
+              <div class="topic-left">
+                <span class="topic-number gray-bg">5</span>
+                <div class="topic-info">
+                  <h4>Multimedia va Audio/Video</h4>
+                  <p>4 dars • Davomiyligi 1.5 soat</p>
+                </div>
+              </div>
+              <div class="topic-middle">
+                <div class="progress-info">
+                  <span>O'zlashtirish</span>
+                  <span class="percent">0%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill gray" style="width: 0%;"></div>
+                </div>
+              </div>
+              <div class="topic-right">
+                <span class="status-badge locked">YOPIQ</span>
+                <button class="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <!-- 6. Yopiq -->
+            <div class="topic-card">
+              <div class="topic-left">
+                <span class="topic-number gray-bg">6</span>
+                <div class="topic-info">
+                  <h4>HTML5 API va Geolocation</h4>
+                  <p>6 dars • Davomiyligi 1.5 soat</p>
+                </div>
+              </div>
+              <div class="topic-middle">
+                <div class="progress-info">
+                  <span>O'zlashtirish</span>
+                  <span class="percent">0%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill gray" style="width: 0%;"></div>
+                </div>
+              </div>
+              <div class="topic-right">
+                <span class="status-badge locked">YOPIQ</span>
+                <button class="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uchqun Test Tizimi</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="test-container">
+      <!-- Верхняя шапка -->
+      <header class="test-header">
+        <div class="logo-box">
+          <div class="logo-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <span class="brand-name">UCHQUN TEST TIZIMI</span>
+        </div>
+
+        <div class="test-header-right">
+          <div class="timer-box">
+            <i class="fa-regular fa-clock"></i>
+            <span id="timer">14:25</span>
+          </div>
+          <div class="question-counter">
+            Savol: 3 / 10
+          </div>
+        </div>
+      </header>
+
+      <!-- Основная область теста -->
+      <main class="test-main">
+        <div class="question-card">
+          <span class="category-title">METATEGLAR VA SEMANTIKA</span>
+          <h2>Quyidagi metataglardan qaysi biri qidiruv tizimlariga sahifani indekslashni taqiqlash yoki ruxsat berish uchun ishlatiladi?</h2>
+        </div>
+
+        <!-- Варианты ответов -->
+        <div class="options-list">
+          <label class="option-item">
+            <div class="option-left">
+              <span class="option-letter">A</span>
+              <span class="option-text">&lt;meta name="keywords" content="..."&gt;</span>
+            </div>
+            <input type="radio" name="answer" />
+          </label>
+
+          <label class="option-item selected">
+            <div class="option-left">
+              <span class="option-letter orange">B</span>
+              <span class="option-text">&lt;meta name="robots" content="noindex, nofollow"&gt;</span>
+            </div>
+            <input type="radio" name="answer" checked />
+          </label>
+
+          <label class="option-item">
+            <div class="option-left">
+              <span class="option-letter">C</span>
+              <span class="option-text">&lt;meta name="description" content="..."&gt;</span>
+            </div>
+            <input type="radio" name="answer" />
+          </label>
+
+          <label class="option-item">
+            <div class="option-left">
+              <span class="option-letter">D</span>
+              <span class="option-text">&lt;meta charset="UTF-8"&gt;</span>
+            </div>
+            <input type="radio" name="answer" />
+          </label>
+        </div>
+
+        <!-- Нижняя навигация -->
+        <div class="test-footer">
+          <button class="nav-btn prev" id="prevBtn">Oldingi savol</button>
+          <div class="footer-right">
+            <button class="skip-btn" id="skipBtn">O'tkazib yuborish</button>
+            <button class="nav-btn next" id="nextBtn">Keyingisi <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

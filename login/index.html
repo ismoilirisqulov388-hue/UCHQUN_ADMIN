@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tizimga kirish - UCHQUN</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <!-- Chap tomon (Gradient fon va markazlashgan matnlar) -->
+      <div class="login-banner">
+        <div class="banner-content-top">
+          <div class="logo-box">
+            <div class="logo-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="logo-text">
+              <span class="brand-name">UCHQUN</span>
+              <span class="brand-sub">YOSH BILIMDONLAR UYI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner-text-centered">
+          <h1>Kelajak IT bilimdonlari shu yerdan boshlanadi</h1>
+          <p>
+            Zamonaviy Frontend, Backend, Mobile dasturlash hamda Kompyuter
+            savodxonligi kurslarining yagona platformasi.
+          </p>
+        </div>
+
+        <div class="banner-footer">
+          <p>Uchqun IT-akademiyasi o'quvchilari uchun maxsus yopiq tizim.</p>
+        </div>
+      </div>
+
+      <!-- O'ng tomon (Kirish formasi) -->
+      <div class="login-form-section">
+        <div class="form-wrapper">
+          <div class="form-header">
+            <h2>Tizimga kirish</h2>
+            <p>Profil ma'lumotlarini administratsiya taqdim etadi.</p>
+          </div>
+
+          <form class="auth-form" onsubmit="event.preventDefault()">
+            <div class="input-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="example@uchqun.uz"
+                required
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="password">Parol</label>
+              <div class="password-wrapper">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="••••••••"
+                  required
+                />
+                <button
+                  type="button"
+                  class="toggle-password"
+                  id="togglePassword"
+                >
+                  <i class="fa-regular fa-eye-slash"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <label class="remember-me">
+                <input type="checkbox" />
+                <span>Eslab qolish</span>
+              </label>
+              <a href="#" class="forgot-password">Parolni unutdingizmi?</a>
+            </div>
+
+            <button type="submit" class="submit-btn" id="btn">Kirish</button>
+
+            <div class="form-footer-text">
+              <p>Yangi hisob ochish uchun o'quv markaziga murojaat qiling.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="library.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

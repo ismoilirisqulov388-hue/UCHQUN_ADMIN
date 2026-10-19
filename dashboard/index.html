@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - UCHQUN</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Chap Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-top">
+          <div class="logo-box">
+            <div class="logo-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="logo-text">
+              <span class="brand-name">UCHQUN</span>
+              <span class="brand-sub">YOSH BILIMDONLAR UYI</span>
+            </div>
+          </div>
+
+          <nav class="sidebar-menu">
+            <a href="#" class="menu-item active">
+              <i class="fa-solid fa-book-open"></i>
+              <span>Mening darslarim</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-list-check"></i>
+              <span>Topshiriqlar</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-award"></i>
+              <span>Reyting</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-comments"></i>
+              <span>Muloqot markazi</span>
+            </a>
+            <a href="#" class="menu-item">
+              <i class="fa-solid fa-user"></i>
+              <span>Mening profilim</span>
+            </a>
+          </nav>
+        </div>
+
+        <div class="sidebar-profile">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Avatar" class="profile-avatar" />
+          <div class="profile-info">
+            <h4>Azizbek Qodirov</h4>
+            <p>Guruh: F-2401</p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Asosiy qism -->
+      <main class="main-content">
+        <!-- Yuqori qism (Header) -->
+        <header class="main-header">
+          <div class="header-dropdown">
+            <span class="label">Dastur:</span>
+            <div class="dropdown-box">
+              <span>Frontend Dasturlash</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="header-notification">
+            <button class="notif-btn">
+              <i class="fa-regular fa-bell"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Kontent mazmuni -->
+        <div class="content-body">
+          <!-- Banner -->
+          <div class="task-banner">
+            <div class="banner-text">
+              <h2>Bugungi vazifa: Portfolio loyihasini yakunlash</h2>
+              <p>Haftalik amaliy topshiriq topshirish vaqti tugashiga 1 kun qoldi.</p>
+            </div>
+            <button class="upload-btn">Vazifani yuklash</button>
+          </div>
+
+          <!-- Modullar sarlavhasi -->
+          <div class="modules-header">
+            <h3>Frontend moduli mavzulari</h3>
+            <p>Siz ushbu bosqichda quyidagi modullarni o'zlashtirishingiz lozim.</p>
+          </div>
+
+          <!-- Modullar kartochkalari -->
+          <div class="modules-grid">
+            <!-- Card 1 -->
+            <div class="module-card">
+              <div class="card-top">
+                <h4>HTML Asoslari</h4>
+                <span class="badge completed">TUGALLANDI</span>
+              </div>
+              <div class="card-stats">
+                <span><i class="fa-solid fa-book"></i> 12 dars</span>
+                <span><i class="fa-solid fa-hashtag"></i> 24 mavzu</span>
+              </div>
+              <div class="card-progress">
+                <div class="progress-info">
+                  <span>Kurs taraqqiyoti</span>
+                  <span class="percent">100%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+              <button class="card-btn outline">Darslarga o'tish</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="module-card">
+              <div class="card-top">
+                <h4>CSS Visual Dizayn</h4>
+                <span class="badge active-card">FAOLLASHGAN</span>
+              </div>
+              <div class="card-stats">
+                <span><i class="fa-solid fa-book"></i> 18 dars</span>
+                <span><i class="fa-solid fa-hashtag"></i> 36 mavzu</span>
+              </div>
+              <div class="card-progress">
+                <div class="progress-info">
+                  <span>Kurs taraqqiyoti</span>
+                  <span class="percent">65%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 65%;"></div>
+                </div>
+              </div>
+              <button class="card-btn solid">Darslarga o'tish</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="module-card">
+              <div class="card-top">
+                <h4>JavaScript Dasturlash</h4>
+                <span class="badge active-card">FAOLLASHGAN</span>
+              </div>
+              <div class="card-stats">
+                <span><i class="fa-solid fa-book"></i> 24 dars</span>
+                <span><i class="fa-solid fa-hashtag"></i> 48 mavzu</span>
+              </div>
+              <div class="card-progress">
+                <div class="progress-info">
+                  <span>Kurs taraqqiyoti</span>
+                  <span class="percent">15%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 15%;"></div>
+                </div>
+              </div>
+              <button class="card-btn solid">Darslarga o'tish</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
